@@ -1,0 +1,45 @@
+body {
+	background-color: #282828;
+	color: #fff;
+    margin: 0;
+}
+.cabecalho {
+	height: 80px;
+	background-color: #0b0b0b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+
+.cabecalho .Logo {
+	display: flex;
+	gap: 15px;
+}
+
+.cabecalho .logordr2 {
+    display: flex;
+    width: 100px;
+}
+
+.cabecalho .menu {
+	display: flex;
+	gap: 30px;
+}
+
+.cabecalho .menu li a {
+	padding: 30px;
+	color: #e8e8e8;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.home .imagem-fundo {
+	width: 100%;
+	object-fit: cover;
+}
